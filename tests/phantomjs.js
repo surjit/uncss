@@ -22,7 +22,7 @@ describe('PhantomJS', function () {
             expect(output).to.include('.append_absolute');
             expect(output).to.include('.append_relative');
             done();
-        })
+        });
     });
 
     it('Should exit only when JS evaluation has finished', function (done) {
