@@ -10,3 +10,6 @@ install:
     - npm install
 
 script: "grunt travis"
+
+matrix:
+  fast_finish: true
